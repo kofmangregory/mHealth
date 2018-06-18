@@ -130,13 +130,108 @@
                     <view key="view" contentMode="scaleToFill" id="xsd-eh-5mU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="F05-Gf-wAi">
+                                <rect key="frame" x="16" y="37" width="246" height="91"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="QxO-TL-Et0"/>
+                                    <constraint firstAttribute="height" constant="91" id="Ti7-Yo-vP2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="1) Start Chest Compressions">
+                                    <color key="titleColor" red="1" green="0.32403416185851486" blue="0.28726021448775485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.0552359285384173" blue="0.2021811749550384" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DrX-Au-dmi">
+                                <rect key="frame" x="16" y="163" width="246" height="91"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="X7t-Vg-Tip"/>
+                                    <constraint firstAttribute="width" constant="246" id="gtk-Ya-flx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="2) Call Code Overhead">
+                                    <color key="titleColor" red="1" green="0.32403416190000001" blue="0.2872602145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.05523592854" blue="0.20218117499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D9u-UV-KaF">
+                                <rect key="frame" x="16" y="288" width="246" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="67H-FG-xJV"/>
+                                    <constraint firstAttribute="width" constant="246" id="7qw-x1-SjK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal">
+                                    <string key="title">3) Apply Defibrilation 
+Pads</string>
+                                    <color key="titleColor" red="1" green="0.32403416190000001" blue="0.2872602145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.05523592854" blue="0.20218117499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="x6r-xa-JeR">
+                                <rect key="frame" x="16" y="420" width="246" height="91"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="TAc-dq-rm9"/>
+                                    <constraint firstAttribute="height" constant="91" id="Ttx-Vu-peE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal">
+                                    <string key="title">4) Place 
+Backboard</string>
+                                    <color key="titleColor" red="1" green="0.32403416190000001" blue="0.2872602145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="1" green="0.05523592854" blue="0.20218117499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKIP TO DOCUMENTATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="111-gy-bNf">
+                                <rect key="frame" x="82" y="556" width="211" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="JBb-VZ-R4d"/>
+                                    <constraint firstAttribute="width" constant="211" id="vQp-Db-SVy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93947675777840489" green="0.93947675777840489" blue="0.93947675777840489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="F05-Gf-wAi" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="DuV-15-XNx"/>
+                            <constraint firstItem="DrX-Au-dmi" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="ECG-4q-wrA"/>
+                            <constraint firstItem="111-gy-bNf" firstAttribute="centerX" secondItem="xsd-eh-5mU" secondAttribute="centerX" id="FA1-th-Ajh"/>
+                            <constraint firstItem="x6r-xa-JeR" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="RIt-lG-tys"/>
+                            <constraint firstItem="F05-Gf-wAi" firstAttribute="top" secondItem="7cc-WK-mM6" secondAttribute="top" constant="17" id="XfG-t4-hkb"/>
+                            <constraint firstItem="D9u-UV-KaF" firstAttribute="top" secondItem="DrX-Au-dmi" secondAttribute="bottom" constant="34" id="Y1D-nX-EGf"/>
+                            <constraint firstItem="DrX-Au-dmi" firstAttribute="top" secondItem="F05-Gf-wAi" secondAttribute="bottom" constant="35" id="cYE-VN-zky"/>
+                            <constraint firstItem="7cc-WK-mM6" firstAttribute="bottom" secondItem="111-gy-bNf" secondAttribute="bottom" constant="90" id="jPW-S0-E5r"/>
+                            <constraint firstItem="x6r-xa-JeR" firstAttribute="top" secondItem="D9u-UV-KaF" secondAttribute="bottom" constant="37" id="kqY-ya-It4"/>
+                            <constraint firstItem="D9u-UV-KaF" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="wC8-9C-7Lg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7cc-WK-mM6"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ndc-UA-Moj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="846" y="124"/>
+            <point key="canvasLocation" x="845.60000000000002" y="123.68815592203899"/>
         </scene>
     </scenes>
     <resources>
