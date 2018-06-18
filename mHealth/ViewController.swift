@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     //MARK: Actions
     
+    @IBAction func doNotStartButton(_ sender: UIButton) {
+        UIControl().sendAction(#selector(NSXPCConnection.suspend), to: UIApplication.shared, for: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
