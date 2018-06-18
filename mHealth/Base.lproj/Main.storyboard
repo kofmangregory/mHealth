@@ -132,11 +132,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="F05-Gf-wAi">
-                                <rect key="frame" x="16" y="37" width="246" height="91"/>
+                                <rect key="frame" x="16" y="37" width="246" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="246" id="QxO-TL-Et0"/>
-                                    <constraint firstAttribute="height" constant="91" id="Ti7-Yo-vP2"/>
+                                    <constraint firstAttribute="height" constant="70" id="eR8-NS-pyf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="1) Start Chest Compressions">
@@ -145,14 +144,16 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DrX-Au-dmi">
-                                <rect key="frame" x="16" y="163" width="246" height="91"/>
+                                <rect key="frame" x="16" y="137" width="246" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="91" id="X7t-Vg-Tip"/>
-                                    <constraint firstAttribute="width" constant="246" id="gtk-Ya-flx"/>
+                                    <constraint firstAttribute="height" constant="70" id="cQJ-YT-iA8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="2) Call Code Overhead">
@@ -161,32 +162,37 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="D9u-UV-KaF">
-                                <rect key="frame" x="16" y="288" width="246" height="95"/>
+                                <rect key="frame" x="16" y="237" width="246" height="107"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="95" id="67H-FG-xJV"/>
-                                    <constraint firstAttribute="width" constant="246" id="7qw-x1-SjK"/>
+                                    <constraint firstAttribute="height" constant="107" id="j1A-ud-MPb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal">
-                                    <string key="title">3) Apply Defibrilation 
+                                    <string key="title">3) Apply 
+Defibrilation 
 Pads</string>
                                     <color key="titleColor" red="1" green="0.32403416190000001" blue="0.2872602145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.05523592854" blue="0.20218117499999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="x6r-xa-JeR">
-                                <rect key="frame" x="16" y="420" width="246" height="91"/>
+                                <rect key="frame" x="16" y="374" width="246" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="246" id="TAc-dq-rm9"/>
-                                    <constraint firstAttribute="height" constant="91" id="Ttx-Vu-peE"/>
+                                    <constraint firstAttribute="height" constant="70" id="26P-XJ-u44"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal">
@@ -197,14 +203,13 @@ Backboard</string>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="3"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SKIP TO DOCUMENTATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="111-gy-bNf">
-                                <rect key="frame" x="82" y="556" width="211" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="JBb-VZ-R4d"/>
-                                    <constraint firstAttribute="width" constant="211" id="vQp-Db-SVy"/>
-                                </constraints>
+                                <rect key="frame" x="82" y="562" width="211" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -215,16 +220,20 @@ Backboard</string>
                         </subviews>
                         <color key="backgroundColor" red="0.93947675777840489" green="0.93947675777840489" blue="0.93947675777840489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="F05-Gf-wAi" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="DuV-15-XNx"/>
-                            <constraint firstItem="DrX-Au-dmi" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="ECG-4q-wrA"/>
-                            <constraint firstItem="111-gy-bNf" firstAttribute="centerX" secondItem="xsd-eh-5mU" secondAttribute="centerX" id="FA1-th-Ajh"/>
-                            <constraint firstItem="x6r-xa-JeR" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="RIt-lG-tys"/>
-                            <constraint firstItem="F05-Gf-wAi" firstAttribute="top" secondItem="7cc-WK-mM6" secondAttribute="top" constant="17" id="XfG-t4-hkb"/>
-                            <constraint firstItem="D9u-UV-KaF" firstAttribute="top" secondItem="DrX-Au-dmi" secondAttribute="bottom" constant="34" id="Y1D-nX-EGf"/>
-                            <constraint firstItem="DrX-Au-dmi" firstAttribute="top" secondItem="F05-Gf-wAi" secondAttribute="bottom" constant="35" id="cYE-VN-zky"/>
-                            <constraint firstItem="7cc-WK-mM6" firstAttribute="bottom" secondItem="111-gy-bNf" secondAttribute="bottom" constant="90" id="jPW-S0-E5r"/>
-                            <constraint firstItem="x6r-xa-JeR" firstAttribute="top" secondItem="D9u-UV-KaF" secondAttribute="bottom" constant="37" id="kqY-ya-It4"/>
-                            <constraint firstItem="D9u-UV-KaF" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="wC8-9C-7Lg"/>
+                            <constraint firstItem="x6r-xa-JeR" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="EQp-Zh-o14"/>
+                            <constraint firstItem="DrX-Au-dmi" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="Mfu-QY-7Tb"/>
+                            <constraint firstItem="111-gy-bNf" firstAttribute="centerX" secondItem="xsd-eh-5mU" secondAttribute="centerX" id="QSy-ZM-rY2"/>
+                            <constraint firstItem="7cc-WK-mM6" firstAttribute="trailing" secondItem="x6r-xa-JeR" secondAttribute="trailing" constant="113" id="QZ9-dU-fcb"/>
+                            <constraint firstItem="DrX-Au-dmi" firstAttribute="top" secondItem="F05-Gf-wAi" secondAttribute="bottom" constant="30" id="QcZ-JV-ddE"/>
+                            <constraint firstItem="F05-Gf-wAi" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="S1s-Bn-4SV"/>
+                            <constraint firstItem="x6r-xa-JeR" firstAttribute="top" secondItem="D9u-UV-KaF" secondAttribute="bottom" constant="30" id="ZQo-qA-PNB"/>
+                            <constraint firstItem="D9u-UV-KaF" firstAttribute="leading" secondItem="7cc-WK-mM6" secondAttribute="leading" constant="16" id="aIb-jZ-w7R"/>
+                            <constraint firstItem="D9u-UV-KaF" firstAttribute="top" secondItem="DrX-Au-dmi" secondAttribute="bottom" constant="30" id="ak2-Rv-Oaf"/>
+                            <constraint firstItem="7cc-WK-mM6" firstAttribute="trailing" secondItem="DrX-Au-dmi" secondAttribute="trailing" constant="113" id="bgR-eY-Lgn"/>
+                            <constraint firstItem="7cc-WK-mM6" firstAttribute="trailing" secondItem="D9u-UV-KaF" secondAttribute="trailing" constant="113" id="dvy-lv-e3u"/>
+                            <constraint firstItem="7cc-WK-mM6" firstAttribute="trailing" secondItem="F05-Gf-wAi" secondAttribute="trailing" constant="113" id="hb9-mV-Exz"/>
+                            <constraint firstItem="F05-Gf-wAi" firstAttribute="top" secondItem="7cc-WK-mM6" secondAttribute="top" constant="17" id="jxZ-NY-49l"/>
+                            <constraint firstItem="7cc-WK-mM6" firstAttribute="bottom" secondItem="111-gy-bNf" secondAttribute="bottom" constant="84" id="wy5-sD-QoU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7cc-WK-mM6"/>
                     </view>
